@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  header {
+    padding: 26px;
+    background-color: rgba(176, 0, 0, 0.72);
+    color: #fff;
+    margin-bottom: 3em;
+  }
+
+  header h2 {   
+    font-family: 'Bungee', cursive;
+    border-bottom: 5px solid #fff;
+  }
+
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header ul {
+    display: flex;
+  }
+
+  header ul li {
+    margin-left: 1em;
+    list-style: none;
+    font-family: 'Bungee', cursive;
+  }
+
+  header ul a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  header ul li:hover {
+    color: rgb(0, 0, 0);
+  }
+
+    section h2 {
+    border-bottom: 2px solid rgba(176, 0, 0, 0.72);
+    padding-bottom: 15px;
+   }
+  
+  .image-theme img {
+    width: 30em;
+  }
+
+  .section-about {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section-about img {
+    margin-right: 1em;
+  }
+
+  .section-about h2 {
+    margin-bottom: 1em;
+  }
+
+  .section-product {
+    margin-top: 2em;
+  }
+
+  .section-product article  {
+    margin-bottom: 10em;
+    width: 25%;
+    margin: 0px 5px 0 5px;
+  }
+
+  .section-product img {
+    width: 100%;
+  }
+
+  .section-product article a {
+    text-decoration: none;
+  }
+
+  .products {
+    display: flex;
+  }
+
+  .section-product article {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .section-product article img {
+    grid-template-columns: repeat(4, 25%);
+  }
+
+  .section-product h2 {
+    margin: 40px 0 40px 0;
+  }
+
+  .section-product h4 {
+    margin: 30px 0 30px 0;
+  }
+
+  .section-product button {
+    margin-top: 5px;
+    width: 100%;
+    background-color: rgba(176, 0, 0, 0.72);
+    color: #fff;
+    cursor: pointer;
+    padding: 5px;
+    text-transform: uppercase;
+    border: none;
+    font-family:cursive;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .section-product button:hover {
+    background-color: #ff7d7d;
+    color: black;
+  }
+
+
+  
