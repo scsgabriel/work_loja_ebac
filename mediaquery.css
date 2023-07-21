@@ -17,6 +17,10 @@
         max-width: 100%;
     }
 
+    header ul li  {
+        margin-top: 20px;
+    }
+
     .container .left-zero {
         margin-left: 0;
     }
